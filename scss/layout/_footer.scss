@@ -1,0 +1,36 @@
+footer {
+    background-image: url(../img/footer-background.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.712);
+    background-position: center center;
+    background-blend-mode: lighten;
+    top: 0;
+
+    .address {
+        list-style: none;
+        font-size: 14px;
+        font-weight: bold;
+        @include overTab{
+            display: flex;
+            font-size: 30px;
+        }
+        li {
+            text-align: center;
+            margin-right: 10px;
+            @include overTab{
+                width: 33.33%;
+            }
+        }
+    }
+    iframe {
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        @include overTab{
+            width: 60%;
+        }
+    }
+    .copyrights{
+        text-align: center;
+    }
+}

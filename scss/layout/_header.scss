@@ -1,0 +1,99 @@
+.header {
+    position: fixed;
+    top: 0;
+    background-color: cl(white);
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+
+    .header-left {
+        width: 60%;
+        margin: 10px;
+        @include overTab{
+            width: 40%;
+        }
+    }
+
+    .header-logo {
+        width: 100%;
+        height: auto;
+        @include overTab{
+            width: 60%;
+            height: auto;
+        }
+    }
+
+    .snapon-logo {
+        width: 40%;
+        height: auto;
+        margin-top: 5px;
+        @include overTab{
+            width: 30%;
+            height: auto;
+            margin-top: 5px;
+        }
+    }
+
+    .header-center {
+        margin: auto 0 auto auto;
+
+    }
+    
+    .btn {
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .btn-mail {
+        margin-right: 10px;
+        img{
+            border-radius: 50%;
+        }
+    }
+    
+    .btn-tel {
+        @include overTab{
+            display: none;
+        }
+        img{
+            border-radius: 50%;
+        }
+    }
+
+    .header-right {
+        margin: auto 15px auto 0;
+    }
+
+    .header-tel {
+        line-height: 0.9;
+    }
+
+    .tel-info {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0;
+        @include overTab{
+            font-size: 18px;
+        }
+    }
+
+    .tel {
+        margin: 0;
+        color: rgb(163, 5, 5);
+        font-weight: bold;
+        font-size: 18px;
+        @include overTab{
+            font-size: 38px;
+        }
+    }
+
+    .address {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0;
+        @include overTab{
+            font-size: 18px;
+        }
+    }
+}

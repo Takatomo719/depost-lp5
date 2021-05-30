@@ -1,0 +1,511 @@
+@media print, screen and (min-width: 1030px) {
+  ._sp {
+    display: none;
+  }
+}
+
+._pc {
+  display: none;
+}
+
+@media print, screen and (min-width: 1030px) {
+  ._pc {
+    display: block;
+  }
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Hiragino Mincho Pro',serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.cmn-title h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .cmn-title h1 {
+    font-size: 50px;
+  }
+}
+
+.cmn-subtitle {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-left {
+  width: 60%;
+  margin: 10px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .header-left {
+    width: 40%;
+  }
+}
+
+.header .header-logo {
+  width: 100%;
+  height: auto;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .header-logo {
+    width: 60%;
+    height: auto;
+  }
+}
+
+.header .snapon-logo {
+  width: 40%;
+  height: auto;
+  margin-top: 5px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .snapon-logo {
+    width: 30%;
+    height: auto;
+    margin-top: 5px;
+  }
+}
+
+.header .header-center {
+  margin: auto 0 auto auto;
+}
+
+.header .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.header .btn-mail {
+  margin-right: 10px;
+}
+
+.header .btn-mail img {
+  border-radius: 50%;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .btn-tel {
+    display: none;
+  }
+}
+
+.header .btn-tel img {
+  border-radius: 50%;
+}
+
+.header .header-right {
+  margin: auto 15px auto 0;
+}
+
+.header .header-tel {
+  line-height: 0.9;
+}
+
+.header .tel-info {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .tel-info {
+    font-size: 18px;
+  }
+}
+
+.header .tel {
+  margin: 0;
+  color: #a30505;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .tel {
+    font-size: 38px;
+  }
+}
+
+.header .address {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .header .address {
+    font-size: 18px;
+  }
+}
+
+footer {
+  background-image: url(../img/footer-background.jpg);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.712);
+  background-position: center center;
+  background-blend-mode: lighten;
+  top: 0;
+}
+
+footer .address {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media print, screen and (min-width: 1030px) {
+  footer .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+  }
+}
+
+footer .address li {
+  text-align: center;
+  margin-right: 10px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  footer .address li {
+    width: 33.33%;
+  }
+}
+
+footer iframe {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  footer iframe {
+    width: 60%;
+  }
+}
+
+footer .copyrights {
+  text-align: center;
+}
+
+.top .top-image {
+  background-image: url(../img/top-responsive.png);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 150%;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .top .top-image {
+    background-image: url(../img/depost-top-img.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 80%;
+  }
+}
+
+.problem {
+  margin-bottom: 50px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .problem .problem-contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.problem .problem-img {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .problem .problem-img {
+    width: 50%;
+  }
+}
+
+@media print, screen and (min-width: 1030px) {
+  .problem .probrem-exp {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.problem .probrem-exp img {
+  border-radius: 15px;
+}
+
+.solution {
+  background-image: url(../img/pit-img.jpg);
+  background-color: rgba(255, 255, 255, 0.712);
+  background-blend-mode: lighten;
+  padding-bottom: 80px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .solution .solution-contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.solution .solution-item {
+  background-color: rgba(124, 253, 85, 0.747);
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .solution .solution-item {
+    width: 33.3%;
+  }
+}
+
+.solution .solution-item-text {
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+}
+
+.solution .cta-btn {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.solution .cta-btn a {
+  background-color: #f8c12b;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .solution .cta-btn a {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+
+.price {
+  background-color: rgba(255, 255, 255, 0.856);
+  background-blend-mode: lighten;
+  background-size: contain;
+  padding-bottom: 30px;
+}
+
+.price .dif-img {
+  max-width: 500px;
+}
+
+.price .dif-texts {
+  font-size: 30px;
+  text-align: center;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.price .dif-texts p {
+  background-color: rgba(243, 230, 44, 0.644);
+  border-radius: 15px;
+}
+
+.price .dif-list {
+  height: auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .price .dif-list {
+    width: 70%;
+  }
+}
+
+.price .dif-info {
+  background-color: rgba(243, 230, 44, 0.644);
+  border-radius: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.price .dif-info h1 {
+  font-size: 35px;
+}
+
+.price .dif-info p {
+  color: #dd0202;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.price .lists {
+  padding: inherit;
+  list-style: none;
+}
+
+.price .list {
+  background-color: rgba(77, 165, 238, 0.747);
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .price .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.price .car {
+  border-radius: 15px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .price .car {
+    margin: 30px;
+    width: 45%;
+  }
+}
+
+.price .right-side {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price .right-side p {
+  text-align: center;
+  font-size: 23px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .price .right-side p {
+    font-size: 50px;
+    color: #0a0a0a;
+  }
+}
+
+.price .right-side img {
+  border-radius: 15px;
+}
+
+.cta {
+  background-image: url(../img/ctct-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.712);
+  background-blend-mode: lighten;
+  height: 600px;
+  padding-top: 1px;
+}
+
+.cta .cta-tel {
+  text-align: center;
+  color: #c02a04;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .cta .cta-tel {
+    font-size: 30px;
+  }
+}
+
+.cta .cta-tel p {
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .cta .cta-tel p {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+.cta .cta-btn {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cta .cta-btn a {
+  background-color: #f8c12b;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+@media print, screen and (min-width: 1030px) {
+  .cta .cta-btn a {
+    padding: 30px;
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
